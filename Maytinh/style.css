@@ -1,0 +1,66 @@
+/* Làm  */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #effea0;
+}
+
+.calculator
+{
+    width:400px;
+    margin:200px auto;
+}
+
+.calculator__keys
+{
+    width:100%;
+}
+
+.key--operator:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.key-number:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.key--equal:hover{
+    cursor: pointer;
+    background-color: #fff;    
+}
+        
+div button
+{
+    width:23%;
+    height:30px;
+    margin-top:5px;
+    display: inline-block;
+}
+
+div .key--equal
+{
+    height:135px;
+    float:right;
+    margin-right:20px;
+}
+
+div button[data-action="clear"]
+{
+
+}
+
+.calculator__display{
+    width:95%;
+    border:1px solid black;
+    padding:5px 7px;
+    text-align:right;
+    border-radius:4px;
+}
+
+.is-depressed
+{
+    background-color: #ccc;
+}

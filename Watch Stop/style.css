@@ -72,3 +72,18 @@ body {
     width: 300px;
     margin-top: 15px;
 }
+
+#button-start:hover{
+    cursor: pointer;
+    color:  #fff;
+}
+
+#button-end:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+#button-resert:hover{
+    cursor: pointer;
+    color: #fff;
+}
